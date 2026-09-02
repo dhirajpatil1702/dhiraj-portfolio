@@ -31,11 +31,10 @@ function App() {
 
           <h1>DHIRAJ PATIL</h1>
 
-          <h2>Data Analyst</h2>
+          <h2>Aspiring Data Analyst & Data Science Enthusiast</h2>
 
           <p className="hero-text">
-            Passionate Data Analyst focused on transforming data into
-            meaningful insights through SQL, Power BI, Excel and Python.
+            Building projects in Data Analytics & Data Science using Power BI, SQL, Python and Excel.
           </p>
 
           {/* Buttons */}
