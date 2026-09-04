@@ -493,7 +493,7 @@ function App() {
 
             {/* Deloitte Certificate */}
             <a
-              href="/deloitte-certificate.png"
+              href="/deloitte-certificate.png.png"
               target="_blank"
               rel="noreferrer"
               className="cert-card"
