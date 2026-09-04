@@ -16,6 +16,13 @@ function App() {
           <a href="#skills">Skills</a>
           <a href="#certifications">Certifications</a>
           <a href="#contact">Contact</a>
+          <a
+             href="/Dhiraj.Data_Analyst.Resume.pdf.pdf"
+             download
+             className="resume-nav"
+          >
+          Resume
+          </a>
         </div>
       </nav>
 
@@ -301,6 +308,7 @@ function App() {
 
             <div className="skill-card">
               <h3>Languages & Querying</h3>
+
               <div className="skill-tags">
                 <span>Python</span>
                 <span>SQL</span>
@@ -309,6 +317,7 @@ function App() {
 
             <div className="skill-card">
               <h3>Python Libraries</h3>
+
               <div className="skill-tags">
                 <span>NumPy</span>
                 <span>Pandas</span>
@@ -319,6 +328,7 @@ function App() {
 
             <div className="skill-card">
               <h3>Data Analysis</h3>
+
               <div className="skill-tags">
                 <span>Data Cleaning</span>
                 <span>EDA</span>
@@ -330,6 +340,7 @@ function App() {
 
             <div className="skill-card">
               <h3>BI & Visualization</h3>
+
               <div className="skill-tags">
                 <span>Power BI</span>
                 <span>DAX</span>
@@ -340,6 +351,7 @@ function App() {
 
             <div className="skill-card">
               <h3>Database & ETL</h3>
+
               <div className="skill-tags">
                 <span>MySQL</span>
                 <span>Data Modeling</span>
@@ -349,6 +361,7 @@ function App() {
 
             <div className="skill-card">
               <h3>Tools</h3>
+
               <div className="skill-tags">
                 <span>Advanced Excel</span>
                 <span>Git</span>
@@ -457,46 +470,68 @@ function App() {
 
           <div className="cert-grid">
 
-            <div className="cert-card">
-              <div className="cert-icon">🏆</div>
+            {/* TATA Certificate */}
+            <a
+              href="/tata-certificate.png.png"
+              target="_blank"
+              rel="noreferrer"
+              className="cert-card"
+            >
+              <div className="cert-image-wrapper">
+                <img
+                  src="/tata-certificate.png.png"
+                  alt="TATA GenAI Powered Data Analytics Job Simulation Certificate"
+                />
+              </div>
 
               <h3>
                 Tata - GenAI Powered Data Analytics Job Simulation
               </h3>
 
               <p>Data Analytics</p>
-            </div>
+            </a>
 
-            <div className="cert-card">
-              <div className="cert-icon">🏆</div>
+            {/* Deloitte Certificate */}
+            <a
+              href="/deloitte-certificate.png"
+              target="_blank"
+              rel="noreferrer"
+              className="cert-card"
+            >
+              <div className="cert-image-wrapper">
+                <img
+                  src="/deloitte-certificate.png.png"
+                  alt="Deloitte Data Analytics Job Simulation Certificate"
+                />
+              </div>
 
               <h3>
                 Data Analytics Job Simulation
               </h3>
 
               <p>Data Analytics</p>
-            </div>
+            </a>
 
-            <div className="cert-card">
-              <div className="cert-icon">📜</div>
+            {/* Excel Certificate */}
+            <a
+              href="/excel-certificate.png.png"
+              target="_blank"
+              rel="noreferrer"
+              className="cert-card"
+            >
+              <div className="cert-image-wrapper">
+                <img
+                  src="/excel-certificate.png.png"
+                  alt="Introduction to MS Excel Certificate"
+                />
+              </div>
 
               <h3>
                 Introduction to MS Excel
               </h3>
 
               <p>Microsoft Excel</p>
-            </div>
-
-            <div className="cert-card">
-              <div className="cert-icon">🐍</div>
-
-              <h3>
-                Python Programming - LinkedIn
-              </h3>
-
-              <p>Python Programming</p>
-            </div>
-
+            </a>
           </div>
         </div>
       </section>
@@ -515,6 +550,7 @@ function App() {
 
           <div className="contact-grid">
 
+            {/* Email */}
             <a
               href="mailto:patildhiraj1702@gmail.com"
               className="contact-card"
@@ -527,6 +563,7 @@ function App() {
               </div>
             </a>
 
+            {/* Phone */}
             <a
               href="tel:9975950728"
               className="contact-card"
@@ -539,6 +576,7 @@ function App() {
               </div>
             </a>
 
+            {/* GitHub */}
             <a
               href="https://github.com/dhirajpatil1702"
               target="_blank"
@@ -553,6 +591,7 @@ function App() {
               </div>
             </a>
 
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/dhirajpatil07"
               target="_blank"
@@ -566,7 +605,6 @@ function App() {
                 <p>linkedin.com/in/dhirajpatil07</p>
               </div>
             </a>
-
           </div>
 
           <div className="location-text">

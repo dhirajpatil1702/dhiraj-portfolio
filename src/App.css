@@ -78,6 +78,20 @@ a {
 .nav-links a:hover {
   color: #a78bfa;
 }
+.resume-nav {
+  padding: 9px 18px;
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+  color: #ffffff !important;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.resume-nav:hover {
+  background: #8b5cf6;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
 
 /* ================= HERO ================= */
 
@@ -494,11 +508,46 @@ a {
   border: 1px solid rgba(139, 92, 246, 0.18);
 
   transition: 0.3s;
+
+  display: block;
 }
 
 .cert-card:hover {
   transform: translateY(-5px);
   border-color: #7c3aed;
+  box-shadow: 0 15px 40px rgba(124, 58, 237, 0.12);
+}
+
+.cert-image-wrapper {
+  width: 100%;
+  height: 260px;
+
+  margin-bottom: 22px;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cert-image-wrapper img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  display: block;
+
+  transition: 0.3s ease;
+}
+
+.cert-card:hover .cert-image-wrapper img {
+  transform: scale(1.02);
 }
 
 .cert-icon {
@@ -514,6 +563,15 @@ a {
 
 .cert-card p {
   color: #8b5cf6;
+}
+
+/* Python certificate without image */
+.python-cert {
+  cursor: default;
+}
+
+.python-cert:hover {
+  transform: translateY(-5px);
 }
 
 /* ================= CONTACT ================= */
@@ -563,6 +621,15 @@ a {
 .contact-card p {
   color: #aaa3b8;
   font-size: 14px;
+}
+
+.resume-card {
+  cursor: pointer;
+}
+
+.resume-card:hover {
+  border-color: #a78bfa;
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.15);
 }
 
 .location-text {
@@ -685,7 +752,12 @@ a {
     width: 130px;
     height: 130px;
   }
+
+  .cert-image-wrapper {
+    height: 220px;
+  }
 }
+
 /* ================= FINAL ALIGNMENT FIX ================= */
 
 /* All section headings */
@@ -752,6 +824,7 @@ a {
 .location-text {
   text-align: center;
 }
+
 /* Social Icons */
 
 .social-icons {
