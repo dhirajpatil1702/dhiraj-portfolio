@@ -17,7 +17,7 @@ function App() {
           <a href="#certifications">Certifications</a>
           <a href="#contact">Contact</a>
           <a
-             href="/Dhiraj.Data_Analyst.Resume.pdf.pdf"
+             href="/DHIRAJ_PATIL_RESUME_DATA ANALYST.pdf"
              download
              className="resume-nav"
           >
@@ -277,19 +277,21 @@ function App() {
             </div>
 
             <div className="project-card">
-              <div className="project-icon">👨‍💼</div>
+              <div className="project-icon">👥</div>
 
-              <h3>Employee Payroll & Attendance Dashboard</h3>
+              <h3>HR Analytics & Employee Performance Dashboard</h3>
 
               <p>
-                Dashboard for analyzing employee attendance, salary,
-                bonus, deductions, gross salary and net salary.
+                Interactive HR analytics dashboard built using Power BI to
+                analyze employee performance, salary, experience, departments
+                and workforce trends for data-driven decision-making.
               </p>
 
               <div className="tags">
-                <span>Excel</span>
-                <span>Payroll</span>
-                <span>Attendance</span>
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>Power Query</span>
+                <span>HR Analytics</span>
               </div>
             </div>
 
