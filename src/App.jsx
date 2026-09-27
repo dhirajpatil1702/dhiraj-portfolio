@@ -17,7 +17,7 @@ function App() {
           <a href="#certifications">Certifications</a>
           <a href="#contact">Contact</a>
           <a
-             href="/DHIRAJ_PATIL_RESUME_DATA ANALYST.pdf"
+             href="/DHIRAJ_PATIL_DATA ANALYST(RESUME).pdf"
              download
              className="resume-nav"
           >
@@ -140,7 +140,7 @@ function App() {
             <div className="about-text">
               <p>
                 I'm Dhiraj, a passionate and driven Data Analyst/Data
-                Scientist enthusiast. I have recently completed my
+                Scientist enthusiast. I completed my
                 Bachelor's Degree in Electronics & Telecommunication
                 Engineering from Pune University 🇮🇳.
               </p>
@@ -533,6 +533,26 @@ function App() {
               </h3>
 
               <p>Microsoft Excel</p>
+            </a>
+            {/* SQL Certificate */}
+            <a
+                href="/SQL certificate.png.png"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-card"
+            >
+              <div className="cert-image-wrapper">
+                <img
+                  src="/SQL certificate.png.png"
+                  alt="SQL Certificate"
+            />
+           </div>
+
+           <h3>
+           SQL Certificate
+          </h3>
+
+          <p>SQL</p>
             </a>
           </div>
         </div>
