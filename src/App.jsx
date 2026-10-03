@@ -17,7 +17,7 @@ function App() {
           <a href="#certifications">Certifications</a>
           <a href="#contact">Contact</a>
           <a
-             href="/DHIRAJ_PATIL_DATA ANALYST(RESUME).pdf"
+             href="/Dhiraj(Data.Analyst)Resume.pdf"
              download
              className="resume-nav"
           >
